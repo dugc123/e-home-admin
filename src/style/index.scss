@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fll{
+    float: left;
+}
+.flr{
+    float: right;
+}
+.clearfix{
+    &::after{
+        content:"";
+        clear:both;
+        display:block;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+//表格全局样式
+.tabel-item-img{
+    width: 80px;
+    height: 80px;
+}
+.main .el-card{
+    min-height:calc(100vh - 100px)
+}
