@@ -32,6 +32,7 @@ export default {
             axios.get('http://upload.yaojunrong.com/getToken').then(res=>{
                 if (res.data.code == 200) {
                     this.formData.token = res.data.data
+                    localStorage.setItem("token",res.data.data)
                 }
             })
         },

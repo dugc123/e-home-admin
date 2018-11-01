@@ -57,11 +57,11 @@ methods: {
     }
     overflow: hidden;
     height: 100vh;
-    background-color: #2d3a4b;
+    background:url('../../assets/bg.jpg');
 .loginbox{
     width: 450px;
     height: 360px;
-    background-color: #fff;
+    // background-color: #fff;
     margin:160px auto;
     box-sizing: border-box;
     padding:20px;

@@ -38,6 +38,26 @@
                 <el-menu-item index="/layout/addSwiper">添加轮播图</el-menu-item>
                 </el-menu-item-group>
         </el-submenu>
+        <el-submenu index="/topic">
+                <template slot="title">
+                <i class="el-icon-date"></i>
+                <span>互动管理</span>
+                </template>
+                <el-menu-item-group>
+                <el-menu-item index="/layout/topic">互动管理</el-menu-item>
+                <el-menu-item index="/layout/addTopic">添加互动主题</el-menu-item>
+                </el-menu-item-group>
+        </el-submenu>
+        <el-submenu index="/personalSummary">
+                <template slot="title">
+                <i class="el-icon-date"></i>
+                <span>个人总结</span>
+                </template>
+                <el-menu-item-group>
+                <el-menu-item index="/layout/personalSummary">个人总结管理</el-menu-item>
+                <el-menu-item index="/layout/addPersonalSummary">添加总结</el-menu-item>
+                </el-menu-item-group>
+        </el-submenu>
     </el-menu>
  </div>
 </template>

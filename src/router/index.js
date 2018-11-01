@@ -88,6 +88,28 @@ let router = new Router({
               title: "添加轮播图"
             },
             component: () => import('@/views/swiper/addSwiper')
+          }, {
+            path: 'topic',
+            name: 'topic',
+            meta: {
+              title: "互动主题管理"
+            },
+            component: () => import('@/views/topic')
+          },
+          {
+            path: 'personalSummary',
+            name: 'personalSummary',
+            meta: {
+              title: "个人总结管理"
+            },
+            component: () => import('@/views/personalSummary')
+          }, {
+            path: 'addPersonalSummary',
+            name: 'addPersonalSummary',
+            meta: {
+              title: "添加个人总结"
+            },
+            component: () => import('@/views/personalSummary/addPersonalSummary')
           }
     ]
     }
