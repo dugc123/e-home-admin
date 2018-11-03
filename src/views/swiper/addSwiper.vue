@@ -1,7 +1,7 @@
 <template>
  <div class="addSwiper">
   <el-card>
-         <div slot="header">添加轮播图</div>
+        <div slot="header">添加轮播图</div>
         <el-form :model="formData" label-width="100px" label-position="left">
             <el-form-item label="轮播图标题" prop="title" required>
                 <el-input v-model="formData.title"></el-input>
@@ -17,7 +17,7 @@
             <el-form-item label="轮播图排序">  
                 <el-input-number v-model="formData.sort" :min="1"></el-input-number>
             </el-form-item>
-            <el-form-item label="是否显示">  
+            <el-form-item label="是否显示">
                 <el-switch
                     style="display: block"
                     v-model="formData.isShow"
